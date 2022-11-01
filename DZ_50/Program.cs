@@ -29,7 +29,7 @@ int[,] GetArray(int m, int n)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i,j] = new Random().Next(1, 10);  /// Округлил до 1 знака после запятой для красоты
+            array[i,j] = new Random().Next(1, 10);
         }
     }
     return array;

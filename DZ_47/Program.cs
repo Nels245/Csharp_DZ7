@@ -2,9 +2,9 @@
 
 Console.Clear();
 
-Console.Write("Введите колличество строк ");
+Console.Write("Введите количество строк ");
 int m = int.Parse(Console.ReadLine() ?? "");
-Console.Write("Введите колличество столбцов ");
+Console.Write("Введите количество столбцов ");
 int n = int.Parse(Console.ReadLine() ?? "");
 
 double[,] array = GetArray(m,n);
